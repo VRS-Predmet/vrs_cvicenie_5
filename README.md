@@ -58,5 +58,7 @@
 </p>
 
 # Zadanie
-- nastaviť pin PA3 tak, aby bol zdrojom vonkajšieho perušenia (EXTI), ak je na neho privedená nábežná hrana 
-- ak nastane prerušenie, LED na vývojovej doske zmení svoj aktuálny stav
+- Podla zadania z predchadzajuceho cvicenia ("zadanie_cv_4") nakonfigurujte periferie (GPIO, EXTI ...) s vyuzitim grafickeho rozhrania CubeMX. To znamena, ze pociatocna koniguracia vyuzitych periferii bude automaticky vygenerovana grafickym rozhranim.
+- Pri konfiguracii genervania kodu zvolte "LL - low level" kniznicu ako kniznicu, ktoru pouzije generator pri generovani kodu.
+- V programe zo zadania "zadanie_cv_4" nahradte casti kodu, kde nastavujete periferie/registre pomocou CMSIS kniznice funkciami z "LL" kniznice.
+- "zadanie_cv_5" ma navonok fungovat rovnako ako "zadanie_cv_4". Rozdiel je v sposobe, akym je MCU konfigurovane a aka kniznica je pouzita pre nastavovanie periferii/registrov (LL namiesto CMSIS). 
