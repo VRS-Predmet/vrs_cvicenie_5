@@ -4,7 +4,7 @@
 
 
 # Čo je Git
-Je to program na verzovanie programu, ktorý umožňuje:
+Je to systém na verziovanie programu, ktorý umožňuje:
 - sledovanie zmien kódu
 - sledovanie, kto robí dané zmeny
 - zjednodušenie práce s projektom pri viacerých vývojároch
