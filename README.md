@@ -1,6 +1,7 @@
 # Náplň cvičenia
 - Úvod do Git a GitHub
 - pokračovanie na zadaní 4
+- TODO: pridat uvod k licenciam a aby si dali licenciu k semestralnym zadaniam, ak nechcu, aby to niekto okopiroval
 
 
 # Čo je Git
