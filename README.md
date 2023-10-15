@@ -1,7 +1,6 @@
 # Náplň cvičenia
 - Úvod do Git a GitHub
 - pokračovanie na zadaní 4
-- TODO: pridat uvod k licenciam a aby si dali licenciu k semestralnym zadaniam, ak nechcu, aby to niekto okopiroval
 
 
 # Čo je Git
@@ -27,7 +26,7 @@ git config --global user.email "<email>"
 Poskytovateľ internetového hostingu používajúci verzionovací nástroj Git, ktorý umožňuje:
 - distribuované verzionovanie a správu zdrojového kódu
 - grafické prostredie
-- zadarmo zdielať verejne dostupný kód a za príplatok zdielať privátny kód
+- zadarmo obsluhovať verejný alebo privátny kód
 - zálohovanie projektu na vzdialenom serveri
 
 # Základné koncepty Git a prepojenie s GitHub
@@ -395,9 +394,19 @@ Zásady pri spolupracovaní:
     <img src="images/img_github_fork_pull_request_sent.png">
 </p>
 
+# Licencovanie projektu
+Bez licencie každý kód podlieha predvolenej licencii, ktorá hovorí, že daný kód je tebou vlastnený a nikto nemôže reprodukovať, ditribuovať alebo meniť tvoju prácu. Pre vytvorenie Open Source projektu, tento projekt musí obsahovať jednu z licencií, ktoré umožňujú iným používateľom narábať s daným projektom. Je teda dôležité poznať rôzne typy licencií, lebo s nesprávnym narábaním s cudzím kódom môže hroziť žaloba. V repozitári viete väčšinou nájsť licenciu pod názvom ako `LICENSE.md`.
+
+Niektoré typy open source licencií:
+- MIT - robte čo chcete, len ma nežalujte
+- Apache - rovnaké ako MIT, len viac slov
+- BSD - rovnaké ako MIT, obsahuje tri verzie (2 = MIT, 3 = treba povolenie pre zverejnenie tvojho mena, 4 = tvoje meno/značka musia byť súčasťou všetkých propagačných materiálov)
+- GPL - každá derivačná práca musí byť zverejnená tiež s GPL licenciou
+
 # Užitočné linky
 - [GitHub](https://github.com/)
 - [GitLab](https://about.gitlab.com/)
 - [git](https://git-scm.com/)
 - [Git and GitHub Introduction by w3school](https://www.w3schools.com/git/git_intro.asp?remote=github)
 - [Collection of useful .gitignore templates](https://github.com/github/gitignore)
+- [Open source licenses](https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633)
