@@ -29,6 +29,19 @@ Poskytovateľ internetového hostingu používajúci verzionovací nástroj Git,
 - zadarmo obsluhovať verejný alebo privátny kód
 - zálohovanie projektu na vzdialenom serveri
 
+## Pridanie SSH kľúča do GitHub
+Pre umožnenie prístupu z lokálneho repozitára na vzdialený na GitHub-e, treba si v danom počítači vygenerovať SSH kľúč a vložiť ho do GitHub konta pod povolené SSH kľúče. Vďaka tomu sa dá potom pristupovať na GitHub repozitár cez SSH (napr. `git@github.com:VRS-Predmet/vrs_cvicenie_5.git`).
+
+```bash
+# Vygeneruj SSH kľúč typu ed25519
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+# Nakopíruj verejný kľúč do schránky
+clip < ~/.ssh/id_ed25519.pub
+```
+
+V GitHub => Settings => SSH and GPG keys => Add SSH key => Nakopírujte tam kľúč a potvrďte
+
 # Základné koncepty Git a prepojenie s GitHub
 
 ## Repozitár (Repository)
